@@ -1,0 +1,229 @@
+{
+  "cities": [
+    {
+      "name": "云南",
+      "province": "云南省",
+      "keywords": ["Yunnan China landscape", "Lijiang old town", "Dali lake"],
+      "attractions": ["丽江古城", "玉龙雪山", "大理古城", "洱海", "泸沽湖", "元阳梯田", "香格里拉", "西双版纳"],
+      "foods": ["过桥米线", "汽锅鸡", "云南火锅", "烤豆腐", "野生菌"],
+      "accommodationAreas": ["丽江古城区", "大理古城", "双廊镇"],
+      "bestSeason": "3月-10月",
+      "avgDailyBudget": { "economy": 300, "moderate": 600, "luxury": 1200 },
+      "dayThemes": ["抵达昆明 & 滇池探秘", "古城大理 & 洱海风光", "丽江古城 & 束河古镇", "玉龙雪山登顶", "返程 & 购物"]
+    },
+    {
+      "name": "三亚",
+      "province": "海南省",
+      "keywords": ["Sanya beach tropical China", "Hainan island sea"],
+      "attractions": ["亚龙湾", "天涯海角", "南山文化旅游区", "蜈支洲岛", "大东海"],
+      "foods": ["海鲜大排档", "椰子鸡", "抱罗粉", "椰奶清补凉"],
+      "accommodationAreas": ["亚龙湾", "大东海", "海棠湾"],
+      "bestSeason": "11月-次年4月",
+      "avgDailyBudget": { "economy": 400, "moderate": 800, "luxury": 2000 },
+      "dayThemes": ["抵达 & 亚龙湾海滩", "蜈支洲岛浮潜", "天涯海角 & 南山", "深潜体验 & 海鲜之夜", "自由购物 & 返程"]
+    },
+    {
+      "name": "成都",
+      "province": "四川省",
+      "keywords": ["Chengdu panda China", "Sichuan food street"],
+      "attractions": ["大熊猫繁育研究基地", "宽窄巷子", "锦里古街", "武侯祠", "都江堰", "青城山"],
+      "foods": ["火锅", "串串香", "龙抄手", "夫妻肺片", "钟水饺", "担担面"],
+      "accommodationAreas": ["春熙路商圈", "宽窄巷子附近", "天府新区"],
+      "bestSeason": "3月-6月 / 9月-11月",
+      "avgDailyBudget": { "economy": 250, "moderate": 500, "luxury": 1000 },
+      "dayThemes": ["抵达 & 宽窄巷子夜游", "熊猫基地 & 武侯祠", "都江堰 & 青城山", "美食打卡 & 锦里", "自由行程 & 返程"]
+    },
+    {
+      "name": "杭州",
+      "province": "浙江省",
+      "keywords": ["Hangzhou West Lake China", "Longjing tea garden"],
+      "attractions": ["西湖", "灵隐寺", "西溪湿地", "龙井村", "乌镇", "千岛湖"],
+      "foods": ["西湖醋鱼", "东坡肉", "龙井虾仁", "叫花鸡", "知味小笼"],
+      "accommodationAreas": ["西湖景区周边", "湖滨路", "滨江区"],
+      "bestSeason": "3月-5月 / 9月-11月",
+      "avgDailyBudget": { "economy": 300, "moderate": 600, "luxury": 1500 },
+      "dayThemes": ["西湖泛舟 & 断桥残雪", "灵隐寺 & 龙井采茶", "西溪湿地 & 古镇", "千岛湖一日游", "河坊街购物 & 返程"]
+    },
+    {
+      "name": "西安",
+      "province": "陕西省",
+      "keywords": ["Xian terracotta warriors China", "ancient city wall"],
+      "attractions": ["秦始皇兵马俑", "华清池", "古城墙", "大雁塔", "回民街", "华山"],
+      "foods": ["肉夹馍", "羊肉泡馍", "Biangbiang面", "凉皮", "臊子面"],
+      "accommodationAreas": ["钟楼商圈", "大雁塔周边", "曲江新区"],
+      "bestSeason": "3月-5月 / 9月-11月",
+      "avgDailyBudget": { "economy": 250, "moderate": 450, "luxury": 900 },
+      "dayThemes": ["古城墙骑行 & 回民街", "兵马俑 & 华清池", "华山攀登", "大雁塔 & 曲江", "博物馆 & 返程"]
+    },
+    {
+      "name": "北京",
+      "province": "北京市",
+      "keywords": ["Beijing Great Wall China", "Forbidden City"],
+      "attractions": ["故宫", "长城", "颐和园", "天坛", "圆明园", "南锣鼓巷", "798艺术区"],
+      "foods": ["北京烤鸭", "涮羊肉", "炸酱面", "驴打滚", "豆汁"],
+      "accommodationAreas": ["王府井", "三里屯", "前门大街"],
+      "bestSeason": "4月-6月 / 9月-10月",
+      "avgDailyBudget": { "economy": 350, "moderate": 700, "luxury": 1800 },
+      "dayThemes": ["故宫 & 天安门广场", "长城徒步 & 慕田峪", "颐和园 & 圆明园", "胡同文化 & 南锣鼓巷", "798艺术区 & 返程"]
+    },
+    {
+      "name": "上海",
+      "province": "上海市",
+      "keywords": ["Shanghai skyline Bund China", "modern city night"],
+      "attractions": ["外滩", "豫园", "迪士尼乐园", "朱家角", "田子坊", "新天地"],
+      "foods": ["小笼包", "生煎", "本帮红烧肉", "蟹粉面", "排骨年糕"],
+      "accommodationAreas": ["外滩", "人民广场", "静安区"],
+      "bestSeason": "3月-5月 / 9月-11月",
+      "avgDailyBudget": { "economy": 400, "moderate": 800, "luxury": 2000 },
+      "dayThemes": ["外滩 & 陆家嘴夜景", "豫园 & 城隍庙", "迪士尼乐园", "朱家角水乡", "田子坊 & 购物 & 返程"]
+    },
+    {
+      "name": "桂林",
+      "province": "广西壮族自治区",
+      "keywords": ["Guilin karst mountains China", "Li River scenery"],
+      "attractions": ["漓江", "阳朔西街", "象鼻山", "龙脊梯田", "遇龙河"],
+      "foods": ["桂林米粉", "啤酒鱼", "田螺", "荔浦芋扣肉"],
+      "accommodationAreas": ["阳朔西街", "桂林市区", "漓江边"],
+      "bestSeason": "4月-10月",
+      "avgDailyBudget": { "economy": 250, "moderate": 500, "luxury": 1000 },
+      "dayThemes": ["象鼻山 & 市区探索", "漓江竹筏漂流", "阳朔骑行 & 西街", "龙脊梯田登高", "遇龙河 & 返程"]
+    },
+    {
+      "name": "张家界",
+      "province": "湖南省",
+      "keywords": ["Zhangjiajie Avatar mountains China", "glass bridge"],
+      "attractions": ["武陵源", "天门山", "玻璃桥", "十里画廊", "黄龙洞"],
+      "foods": ["土家腊肉", "血粑鸭", "张家界米豆腐", "葛根粉"],
+      "accommodationAreas": ["武陵源景区", "天门山附近", "张家界市区"],
+      "bestSeason": "4月-10月",
+      "avgDailyBudget": { "economy": 300, "moderate": 550, "luxury": 1100 },
+      "dayThemes": ["天门山索道 & 玻璃栈道", "武陵源核心景区", "十里画廊 & 黄石寨", "黄龙洞 & 玻璃桥", "返程"]
+    },
+    {
+      "name": "新疆",
+      "province": "新疆维吾尔自治区",
+      "keywords": ["Xinjiang landscape China grassland desert", "Tianchi lake"],
+      "attractions": ["天山天池", "喀纳斯湖", "那拉提草原", "吐鲁番", "独库公路"],
+      "foods": ["手抓饭", "烤全羊", "馕", "哈密瓜", "葡萄"],
+      "accommodationAreas": ["乌鲁木齐市区", "喀纳斯景区", "布尔津"],
+      "bestSeason": "6月-9月",
+      "avgDailyBudget": { "economy": 350, "moderate": 650, "luxury": 1300 },
+      "dayThemes": ["抵达乌鲁木齐 & 天山天池", "独库公路自驾", "喀纳斯湖探秘", "那拉提草原骑马", "吐鲁番葡萄沟 & 返程"]
+    },
+    {
+      "name": "西藏",
+      "province": "西藏自治区",
+      "keywords": ["Tibet Potala Palace China", "Himalaya landscape"],
+      "attractions": ["布达拉宫", "大昭寺", "纳木错", "羊卓雍错", "珠穆朗玛峰"],
+      "foods": ["糌粑", "酥油茶", "藏式火锅", "青稞酒", "牦牛肉干"],
+      "accommodationAreas": ["拉萨八廓街", "日喀则市区", "林芝县城"],
+      "bestSeason": "4月-10月",
+      "avgDailyBudget": { "economy": 400, "moderate": 750, "luxury": 1500 },
+      "dayThemes": ["抵达拉萨适应高原 & 大昭寺", "布达拉宫 & 哲蚌寺", "纳木错圣湖一日游", "羊卓雍错 & 日喀则", "扎什伦布寺 & 返程"]
+    },
+    {
+      "name": "黄山",
+      "province": "安徽省",
+      "keywords": ["Huangshan yellow mountain China mist", "pine trees"],
+      "attractions": ["黄山风景区", "宏村", "西递", "屯溪老街", "翡翠谷"],
+      "foods": ["徽州臭鳜鱼", "毛豆腐", "黄山烧饼", "徽州炖锅"],
+      "accommodationAreas": ["山顶酒店", "汤口镇", "宏村附近"],
+      "bestSeason": "3月-11月",
+      "avgDailyBudget": { "economy": 350, "moderate": 650, "luxury": 1300 },
+      "dayThemes": ["抵达 & 宏村水墨徽州", "西递古村落", "黄山登顶 & 云海", "黄山日出 & 下山", "屯溪老街 & 返程"]
+    },
+    {
+      "name": "厦门",
+      "province": "福建省",
+      "keywords": ["Xiamen Gulangyu island China", "colorful buildings"],
+      "attractions": ["鼓浪屿", "南普陀寺", "曾厝垵", "集美学村", "厦大校园"],
+      "foods": ["沙茶面", "海蛎煎", "土笋冻", "姜母鸭", "花生汤"],
+      "accommodationAreas": ["鼓浪屿", "中山路", "曾厝垵文创村"],
+      "bestSeason": "10月-次年4月",
+      "avgDailyBudget": { "economy": 300, "moderate": 600, "luxury": 1200 },
+      "dayThemes": ["鼓浪屿漫步 & 音乐厅", "厦大校园 & 南普陀", "曾厝垵文创 & 海鲜", "集美学村 & 嘉庚建筑", "中山路购物 & 返程"]
+    },
+    {
+      "name": "青海",
+      "province": "青海省",
+      "keywords": ["Qinghai Lake China blue water", "salt lake colorful"],
+      "attractions": ["青海湖", "茶卡盐湖", "塔尔寺", "年保玉则", "坎布拉"],
+      "foods": ["手抓羊肉", "酿皮", "牦牛酸奶", "狗浇尿饼"],
+      "accommodationAreas": ["西宁市区", "青海湖边", "茶卡镇"],
+      "bestSeason": "6月-9月",
+      "avgDailyBudget": { "economy": 300, "moderate": 550, "luxury": 1100 },
+      "dayThemes": ["塔尔寺 & 西宁探索", "青海湖环湖骑行", "茶卡盐湖天空之境", "年保玉则徒步", "返程"]
+    },
+    {
+      "name": "重庆",
+      "province": "重庆市",
+      "keywords": ["Chongqing mountain city China night", "hotpot"],
+      "attractions": ["洪崖洞", "解放碑", "磁器口", "武隆天坑", "大足石刻"],
+      "foods": ["重庆火锅", "小面", "烤鱼", "酸辣粉", "豌杂面"],
+      "accommodationAreas": ["解放碑商圈", "南滨路", "北碚区"],
+      "bestSeason": "3月-5月 / 9月-11月",
+      "avgDailyBudget": { "economy": 250, "moderate": 500, "luxury": 1000 },
+      "dayThemes": ["洪崖洞夜景 & 两江游船", "磁器口古镇 & 小面早餐", "武隆天坑地缝", "大足石刻 & 温泉", "解放碑购物 & 返程"]
+    },
+    {
+      "name": "苏州",
+      "province": "江苏省",
+      "keywords": ["Suzhou classical garden China", "canal water town"],
+      "attractions": ["拙政园", "周庄", "同里", "虎丘", "留园", "狮子林"],
+      "foods": ["松鼠桂鱼", "碧螺春茶", "苏式月饼", "藏书羊肉", "枫镇大肉面"],
+      "accommodationAreas": ["平江路", "观前街", "金鸡湖畔"],
+      "bestSeason": "3月-5月 / 9月-11月",
+      "avgDailyBudget": { "economy": 300, "moderate": 600, "luxury": 1200 },
+      "dayThemes": ["拙政园 & 留园园林艺术", "平江路 & 苏式生活", "周庄水乡古镇", "同里古镇 & 退思园", "苏绣体验 & 返程"]
+    },
+    {
+      "name": "武汉",
+      "province": "湖北省",
+      "keywords": ["Wuhan Yellow Crane Tower China", "cherry blossom"],
+      "attractions": ["黄鹤楼", "武汉大学樱花", "东湖", "归元寺", "汉口江滩"],
+      "foods": ["热干面", "豆皮", "鸭脖", "排骨藕汤", "小龙虾"],
+      "accommodationAreas": ["汉口江滩", "光谷", "武昌区"],
+      "bestSeason": "3月-5月 / 9月-11月",
+      "avgDailyBudget": { "economy": 250, "moderate": 500, "luxury": 1000 },
+      "dayThemes": ["黄鹤楼 & 长江游船", "武大樱花 & 东湖绿道", "归元寺 & 汉正街", "光谷科技文化游", "江汉路步行街 & 返程"]
+    },
+    {
+      "name": "南京",
+      "province": "江苏省",
+      "keywords": ["Nanjing Ming wall China", "presidential palace"],
+      "attractions": ["中山陵", "夫子庙", "秦淮河", "明孝陵", "栖霞山"],
+      "foods": ["南京盐水鸭", "鸭血粉丝汤", "皮肚面", "状元豆", "桂花糕"],
+      "accommodationAreas": ["夫子庙", "新街口", "鼓楼区"],
+      "bestSeason": "3月-5月 / 10月-11月",
+      "avgDailyBudget": { "economy": 280, "moderate": 550, "luxury": 1100 },
+      "dayThemes": ["中山陵 & 紫金山", "夫子庙 & 秦淮夜游", "明孝陵 & 明城墙", "栖霞山红叶 & 燕子矶", "南京博物院 & 返程"]
+    },
+    {
+      "name": "乌镇",
+      "province": "浙江省",
+      "keywords": ["Wuzhen water town China night", "ancient canal"],
+      "attractions": ["西栅景区", "东栅景区", "木心美术馆", "昭明书院"],
+      "foods": ["三白酒", "姑嫂饼", "熏豆茶", "白水鱼"],
+      "accommodationAreas": ["西栅民宿", "景区内古宅酒店"],
+      "bestSeason": "全年均可，春秋最佳",
+      "avgDailyBudget": { "economy": 350, "moderate": 700, "luxury": 1500 },
+      "dayThemes": ["东栅历史漫步", "西栅夜景体验", "木心美术馆 & 周边古镇", "返程"]
+    },
+    {
+      "name": "敦煌",
+      "province": "甘肃省",
+      "keywords": ["Dunhuang Mogao caves China desert", "Crescent Moon Spring"],
+      "attractions": ["莫高窟", "鸣沙山月牙泉", "阳关遗址", "玉门关", "雅丹地质公园"],
+      "foods": ["驴肉黄面", "羊肉串", "敦煌杏皮茶", "沙漠玫瑰饼"],
+      "accommodationAreas": ["敦煌市区", "鸣沙山附近"],
+      "bestSeason": "4月-10月",
+      "avgDailyBudget": { "economy": 350, "moderate": 650, "luxury": 1300 },
+      "dayThemes": ["莫高窟壁画探秘", "鸣沙山骑驼 & 月牙泉", "雅丹魔鬼城日落", "阳关 & 玉门关遗址", "返程"]
+    }
+  ],
+  "fallback": {
+    "keywords": ["China travel scenic", "beautiful landscape"],
+    "dayThemes": ["抵达探索 & 市区漫步", "核心景点深度游", "特色体验 & 美食", "周边一日游", "购物采购 & 返程"],
+    "avgDailyBudget": { "economy": 300, "moderate": 600, "luxury": 1200 }
+  }
+}

@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+/* 注意：不能用 * { padding: 0 }，会覆盖所有 Tailwind 的 padding 工具类 */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'SF Pro Display', 'Microsoft YaHei', sans-serif;
+  background: #FAFAF8;
+  color: #1D1D1F;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ========= visionOS 风格设计 token ========= */
+:root {
+  /* 主色 */
+  --bg-base: #FAFAF8;
+  --bg-warm: #F4F1EC;
+  --bg-cool: #F0F2F7;
+
+  /* 玻璃材质 */
+  --glass-bg: rgba(255, 255, 255, 0.55);
+  --glass-bg-strong: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.8);
+  --glass-shadow: 0 20px 60px rgba(31, 41, 55, 0.06);
+  --glass-shadow-hover: 0 30px 80px rgba(31, 41, 55, 0.1);
+
+  /* 文字色 */
+  --text-primary: #1D1D1F;
+  --text-secondary: #555555;
+  --text-tertiary: #98989D;
+  --text-quaternary: #C7C7CC;
+
+  /* 系统色（iOS 风格） */
+  --accent-blue: #007AFF;
+  --accent-mint: #34C759;
+  --accent-peach: #FF9F8C;
+  --accent-purple: #AF52DE;
+  --accent-yellow: #FFCC02;
+
+  /* 分割线 */
+  --hairline: rgba(0, 0, 0, 0.08);
+}
+
+/* 隐藏滚动条 */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+
+/* 玻璃材质 utility */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(40px) saturate(180%);
+  -webkit-backdrop-filter: blur(40px) saturate(180%);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+}
+.glass-strong {
+  background: var(--glass-bg-strong);
+  backdrop-filter: blur(60px) saturate(180%);
+  -webkit-backdrop-filter: blur(60px) saturate(180%);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+}
+
+/* 浮动卡片悬浮 */
+.float-card {
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.float-card:hover {
+  transform: translateY(-2px) scale(1.005);
+  box-shadow: var(--glass-shadow-hover);
+}
+
+/* AI 光球的呼吸动画 */
+@keyframes orbBreath {
+  0%, 100% { transform: scale(1); filter: blur(0px); }
+  50% { transform: scale(1.04); filter: blur(0.5px); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+/* 点击禁用，只接受语音 */
+button, a {
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
